@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#ffe77a">
+
+<title>파밀리케어 서비스 점검 안내</title>
+
+<style>
+
+:root{
+    --page-bg:#ffe77a;
+    --card-bg:#fff6cf;
+    --title:#2f84cc;
+    --text:#222;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    min-height:100vh;
+
+    padding:30px;
+
+    background:
+        radial-gradient(circle at 10% 10%,rgba(255,255,255,.3),transparent 35%),
+        radial-gradient(circle at 90% 90%,rgba(255,255,255,.25),transparent 35%),
+        var(--page-bg);
+
+    font-family:
+        Pretendard,
+        "Noto Sans KR",
+        "Apple SD Gothic Neo",
+        "Malgun Gothic",
+        sans-serif;
+
+    color:var(--text);
+}
+
+.notice-card{
+
+    width:min(100%,800px);
+
+    background:linear-gradient(135deg,#fff8d7,#fff5c6);
+
+    border-radius:16px;
+
+    box-shadow:
+        0 18px 45px rgba(0,0,0,.12);
+
+    padding:70px;
+
+    text-align:center;
+}
+
+.title{
+
+    color:var(--title);
+
+    font-size:48px;
+
+    font-weight:800;
+
+    line-height:1.3;
+
+    margin-bottom:45px;
+}
+
+.message{
+
+    font-size:21px;
+
+    line-height:2.0;
+
+    color:#333;
+}
+
+.message p{
+
+    margin-bottom:28px;
+}
+
+.period{
+
+    display:inline-block;
+
+    margin-top:10px;
+
+    padding:12px 26px;
+
+    background:#2f84cc;
+
+    color:#fff;
+
+    border-radius:8px;
+
+    font-size:20px;
+
+    font-weight:700;
+}
+
+.contact{
+
+    margin-top:50px;
+
+    padding-top:35px;
+
+    border-top:1px solid rgba(0,0,0,.12);
+
+    font-size:18px;
+}
+
+.contact a{
+
+    display:block;
+
+    color:#444;
+
+    text-decoration:none;
+
+    margin:10px 0;
+}
+
+.contact a:hover{
+
+    color:#2f84cc;
+}
+
+@media(max-width:768px){
+
+.notice-card{
+
+    width:95%;
+
+    padding:45px 30px;
+}
+
+.title{
+
+    font-size:34px;
+}
+
+.message{
+
+    font-size:17px;
+}
+
+.period{
+
+    font-size:16px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="notice-card">
+
+<h1 class="title">
+서비스 점검 안내
+</h1>
+
+<div class="message">
+
+<p>
+노후화된 장비 교체 및 시스템 환경 재정비를 위해
+</p>
+
+<p>
+파밀리케어 서비스는
+</p>
+
+<div class="period">
+2026년 7월 22일(수) ~ 2026년 7월 29일(수)
+</div>
+
+<p style="margin-top:35px;">
+보다 안정적인 서비스를 제공하기 위해<br>
+신속하게 시스템 재정비를 완료하고<br>
+정상 서비스로 다시 찾아뵙겠습니다.
+</p>
+
+<p>
+서비스 이용에 불편을 드려 진심으로 죄송합니다.
+</p>
+
+<p>
+감사합니다.
+</p>
+
+</div>
+
+<div class="contact">
+
+<a href="mailto:stmlig@familidata.co.kr">
+📧 stmlig@familidata.co.kr
+</a>
+
+<a href="tel:0313410534">
+☎ 031-341-0534
+</a>
+
+</div>
+
+</div>
+
+</body>
+</html>
